@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pink layout</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css" />
+</head>
+
 <body>
-<h1>Pink layout</h1>
-</body>    
+    <header class="header">
+        <div class="container header__main">
+            <a class = "header__logo" href = "#"><img class = "header__logo-img" src = "img/logo.png"/></a>
+            <nav class = "header__nav">
+                <ul class = "header__menu">
+                    <li class = "header__menu-item"><a class = "header__menu-link" href = "#">Home</a></li>
+                    <li class = "header__menu-item"><a class = "header__menu-link" href = "#">About Us</a></li>
+                    <li class = "header__menu-item"><a class = "header__menu-link" href = "#">Services</a></li>
+                    <li class = "header__menu-item"><a class = "header__menu-link" href = "#">Contacts</a></li>
+                </ul>
+            </nav>
+            <button class = "login"><i class = "login__icon fa fa-user" aria-hidden="true"></i>Login</button>        
+        </div>
+    </header>
+</body>
+
 </html>
